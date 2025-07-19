@@ -16,7 +16,9 @@ target_include_directories(glad PUBLIC
 
 qt_add_executable(HelloGLFW
     # main.cpp
-    hellowindow.cpp
+    # hellowindow.cpp
+    # hellotriangle.cpp
+    shaders.cpp
 )
 
 target_include_directories(HelloGLFW PUBLIC
