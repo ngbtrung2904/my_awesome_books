@@ -18,7 +18,9 @@ qt_add_executable(HelloGLFW
     # main.cpp
     # hellowindow.cpp
     # hellotriangle.cpp
-    shaders.cpp
+    # shaders.cpp
+    # shaderswithtime.cpp
+    opengl3d.cpp
 )
 
 target_include_directories(HelloGLFW PUBLIC
